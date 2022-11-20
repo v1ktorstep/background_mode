@@ -1,0 +1,22 @@
+PODS:
+  - background_mode (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - background_mode (from `.symlinks/plugins/background_mode/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  background_mode:
+    :path: ".symlinks/plugins/background_mode/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  background_mode: 7e734fa4de0cf3df83ae08a062fd56ade322a604
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+
+PODFILE CHECKSUM: ef19549a9bc3046e7bb7d2fab4d021637c0c58a3
+
+COCOAPODS: 1.11.3

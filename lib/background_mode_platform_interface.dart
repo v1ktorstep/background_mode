@@ -23,7 +23,11 @@ abstract class BackgroundModePlatform extends PlatformInterface {
     _instance = instance;
   }
 
-  Future<String?> getPlatformVersion() {
-    throw UnimplementedError('platformVersion() has not been implemented.');
+  Future<int> beginBackgroundTask() {
+    throw UnimplementedError('beginBackgroundTask() has not been implemented.');
+  }
+
+  Future<void> endBackgroundTask(int taskId) {
+    throw UnimplementedError('endBackgroundTask() has not been implemented.');
   }
 }
